@@ -1,2 +1,1 @@
-# Bootcamp-CleanBlog
- 
+# Patika.dev Node.js Bootcamp CleanBlog Projesi

@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp-cleanblog",
+  "version": "1.0.0",
+  "description": "Patika.dev Node.js Bootcamp CleanBlog Projesi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakcantemizel/Bootcamp-CleanBlog.git"
+  },
+  "author": "Burak Can TEMİZEL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burakcantemizel/Bootcamp-CleanBlog/issues"
+  },
+  "homepage": "https://github.com/burakcantemizel/Bootcamp-CleanBlog#readme",
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
