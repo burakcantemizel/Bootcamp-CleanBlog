@@ -34,6 +34,13 @@ app.get('/addPost', (req, res) => {
   res.render('add_post');
 });
 
+app.get('/posts/:id', async (req, res) =>{
+  //console.log(req.params.id);
+  const post = await Post.findById(req.params.id);
+  console.log(post)
+  res.render('post', { post: post });
+});
+
 app.post('/posts', async (req, res) => {
   await Post.create(req.body);
   res.redirect('/');
